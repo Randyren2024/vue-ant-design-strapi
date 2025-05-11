@@ -10,11 +10,10 @@ export default defineConfig({
     splitVendorChunkPlugin(),
     compression({
       include: [/\.(js|css|html|svg|json)$/],
-      threshold: 1024, // 只有大于1kb的文件才会被压缩
+      threshold: 1024,
     }),
   ],
   build: {
-    // 生产环境下移除console和debugger
     minify: 'terser',
     terserOptions: {
       compress: {
@@ -22,28 +21,30 @@ export default defineConfig({
         drop_debugger: true,
       },
     },
-    // 分割代码块
     rollupOptions: {
       output: {
-        manualChunks: {
-          vue: ['vue', 'vue-router', 'pinia'],
-          antd: ['ant-design-vue'],
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('vue') || id.includes('vue-router') || id.includes('pinia')) {
+              return 'vue';
+            }
+            if (id.includes('ant-design-vue')) {
+              return 'antd';
+            }
+            return 'vendor';
+          }
         },
-        // 限制chunk大小
         chunkFileNames: 'assets/js/[name]-[hash].js',
         entryFileNames: 'assets/js/[name]-[hash].js',
         assetFileNames: 'assets/[ext]/[name]-[hash].[ext]',
       },
     },
-    // 预加载直接引入的模块
     modulePreload: {
       polyfill: true,
     },
-    // 生成sourcemap，帮助调试
     sourcemap: false,
-    // 优化CSS
     cssCodeSplit: true,
-    assetsInlineLimit: 4096, // 4kb以下的资源内联为base64
+    assetsInlineLimit: 4096,
   },
   server: {
     open: true,
