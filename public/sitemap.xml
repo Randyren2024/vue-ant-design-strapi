@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- 主页 -->
+  <url>
+    <loc>https://hydrogendrone.cn/</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hydrogendrone.cn/"/>
+    <image:image>
+      <image:loc>https://hydrogendrone.cn/images/products/qingtian-h100-1_optimized.jpg</image:loc>
+      <image:title>擎天H100氢燃料电池无人机</image:title>
+    </image:image>
+  </url>
+  
+  <!-- 产品页面 -->
+  <url>
+    <loc>https://hydrogendrone.cn/products</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/products"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/products"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/products"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/products"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/products"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/products"/>
+  </url>
+  
+  <!-- 产品详情页 -->
+  <url>
+    <loc>https://hydrogendrone.cn/products/qingtian-h100</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/products/qingtian-h100"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/products/qingtian-h100"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/products/qingtian-h100"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/products/qingtian-h100"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/products/qingtian-h100"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/products/qingtian-h100"/>
+    <image:image>
+      <image:loc>https://hydrogendrone.cn/images/products/qingtian-h100-1_optimized.jpg</image:loc>
+      <image:title>擎天H100氢燃料电池无人机</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://hydrogendrone.cn/products/qingluan-h25</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/products/qingluan-h25"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/products/qingluan-h25"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/products/qingluan-h25"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/products/qingluan-h25"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/products/qingluan-h25"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/products/qingluan-h25"/>
+    <image:image>
+      <image:loc>https://hydrogendrone.cn/images/products/qingluanH25-1_optimized.jpg</image:loc>
+      <image:title>青鸾H25氢燃料电池无人机</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://hydrogendrone.cn/products/hits-series</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/products/hits-series"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/products/hits-series"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/products/hits-series"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/products/hits-series"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/products/hits-series"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/products/hits-series"/>
+    <image:image>
+      <image:loc>https://hydrogendrone.cn/images/products/hits-series_optimized.jpg</image:loc>
+      <image:title>麒麟HiTS系列氢燃料电池系统</image:title>
+    </image:image>
+  </url>
+  
+  <!-- 应用场景页面 -->
+  <url>
+    <loc>https://hydrogendrone.cn/scenarios</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/scenarios"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/scenarios"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/scenarios"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/scenarios"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/scenarios"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/scenarios"/>
+  </url>
+  
+  <!-- 应用场景详情页 -->
+  <url>
+    <loc>https://hydrogendrone.cn/scenarios/inspection</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/scenarios/inspection"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/scenarios/inspection"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/scenarios/inspection"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/scenarios/inspection"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/scenarios/inspection"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/scenarios/inspection"/>
+    <image:image>
+      <image:loc>https://hydrogendrone.cn/images/scenarios/inspection_optimized.jpg</image:loc>
+      <image:title>氢燃料电池无人机巡检应用</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://hydrogendrone.cn/scenarios/emergency</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/scenarios/emergency"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/scenarios/emergency"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/scenarios/emergency"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/scenarios/emergency"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/scenarios/emergency"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/scenarios/emergency"/>
+    <image:image>
+      <image:loc>https://hydrogendrone.cn/images/scenarios/emergency_optimized.jpg</image:loc>
+      <image:title>氢燃料电池无人机应急救援</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://hydrogendrone.cn/scenarios/logistics</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/scenarios/logistics"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/scenarios/logistics"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/scenarios/logistics"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/scenarios/logistics"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/scenarios/logistics"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/scenarios/logistics"/>
+    <image:image>
+      <image:loc>https://hydrogendrone.cn/images/scenarios/logistics_optimized.jpg</image:loc>
+      <image:title>氢燃料电池无人机物流运输</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://hydrogendrone.cn/scenarios/cleaning</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/scenarios/cleaning"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/scenarios/cleaning"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/scenarios/cleaning"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/scenarios/cleaning"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/scenarios/cleaning"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/scenarios/cleaning"/>
+    <image:image>
+      <image:loc>https://hydrogendrone.cn/images/scenarios/cleaning_optimized.jpg</image:loc>
+      <image:title>氢燃料电池无人机清洁服务</image:title>
+    </image:image>
+  </url>
+  
+  <!-- 关于我们页面 -->
+  <url>
+    <loc>https://hydrogendrone.cn/about</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/about"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/about"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/about"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/about"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/about"/>
+    <image:image>
+      <image:loc>https://hydrogendrone.cn/images/factory/factory-1_optimized.jpg</image:loc>
+      <image:title>氢燃料电池无人机生产基地</image:title>
+    </image:image>
+  </url>
+  
+  <!-- 联系我们页面 -->
+  <url>
+    <loc>https://hydrogendrone.cn/contact</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/contact"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/contact"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/contact"/>
+  </url>
+  
+  <!-- 新闻页面 -->
+  <url>
+    <loc>https://hydrogendrone.cn/news</loc>
+    <lastmod>2025-05-08T12:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://hydrogendrone.cn/news"/>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://hydrogendrone.cn/en/news"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://hydrogendrone.cn/fr/news"/>
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://hydrogendrone.cn/ja/news"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://hydrogendrone.cn/es/news"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://hydrogendrone.cn/de/news"/>
+  </url>
+</urlset>

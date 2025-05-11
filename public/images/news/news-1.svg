@@ -1,0 +1,6 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#e6f7ff" rx="10" ry="10" />
+  <circle cx="200" cy="100" r="50" fill="#1890ff" opacity="0.6" />
+  <path d="M180 80 L180 120 M220 80 L220 120 M180 100 L220 100" stroke="#fff" stroke-width="8" />
+  <text x="200" y="180" font-family="Arial" font-size="16" text-anchor="middle" fill="#1890ff">氢燃料电池技术突破</text>
+</svg> 

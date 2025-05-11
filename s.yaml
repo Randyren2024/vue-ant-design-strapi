@@ -1,0 +1,44 @@
+edition: 3.0.0
+name: vue-ant-design-app
+access: default-15
+
+resources:
+  web-app:
+    component: fc3
+    props:
+      region: cn-hongkong
+      functionName: webserver-nodejs
+      description: Vue Ant Design Website - Node.js
+      runtime: nodejs16
+      memorySize: 512
+      timeout: 60
+      internetAccess: true
+      code: ./dist
+      handler: test.handler
+      initializer: test.initializer
+      triggers:
+        - triggerName: httpTrigger
+          triggerType: http
+          qualifier: LATEST
+          triggerConfig:
+            authType: anonymous
+            disableURLInternet: false
+            methods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - HEAD
+              - OPTIONS
+      customDomains:
+        - domainName: auto
+          protocol: HTTP
+          routeConfigs:
+            - path: /*
+              methods:
+                - GET
+                - POST
+                - PUT
+                - DELETE
+                - HEAD
+                - OPTIONS 

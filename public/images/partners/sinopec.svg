@@ -1,0 +1,7 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" fill="#f5f5f5" rx="10" ry="10" />
+  <text x="60" y="75" font-family="Arial" font-size="12" text-anchor="middle" fill="#f5222d">中国石化</text>
+  <circle cx="60" cy="40" r="20" fill="#f5222d" opacity="0.8" />
+  <path d="M50 90 L60 80 L70 90" stroke="#f5222d" stroke-width="3" fill="none" />
+  <path d="M45 80 L60 65 L75 80" stroke="#f5222d" stroke-width="3" fill="none" />
+</svg> 

@@ -1,0 +1,42 @@
+region: cn-hongkong
+service:
+  name: vue-ant-website
+  description: Vue Ant Design Website
+  internetAccess: true
+function:
+  name: web-serve
+  handler: index.handler
+  initializer: index.initializer
+  runtime: custom
+  memorySize: 512
+  timeout: 60
+  environmentVariables:
+    NODE_ENV: production
+  codeUri: ./dist
+  asyncConfiguration:
+    maxAsyncEventAgeInSeconds: 3600
+    maxAsyncRetryAttempts: 3
+triggers:
+  - name: httpTrigger
+    type: http
+    config:
+      authType: anonymous
+      methods:
+        - GET
+        - POST
+        - PUT
+        - DELETE
+        - HEAD
+        - OPTIONS
+customDomains:
+  - domainName: auto
+    protocol: HTTP
+    routeConfigs:
+      - path: /*
+        methods:
+          - GET
+          - POST
+          - PUT
+          - DELETE
+          - HEAD
+          - OPTIONS 

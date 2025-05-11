@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" fill="#f5f5f5" rx="10" ry="10" />
+  <text x="60" y="50" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">SGCC</text>
+  <text x="60" y="75" font-family="Arial" font-size="12" text-anchor="middle" fill="#2f54eb">国家电网</text>
+  <circle cx="60" cy="30" r="15" fill="#2f54eb" opacity="0.8" />
+  <path d="M40 95 L60 80 L80 95" stroke="#2f54eb" stroke-width="3" fill="none" />
+  <path d="M60 80 L60 50" stroke="#2f54eb" stroke-width="3" fill="none" />
+</svg> 

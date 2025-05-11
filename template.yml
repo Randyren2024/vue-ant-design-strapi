@@ -1,0 +1,35 @@
+ROSTemplateFormatVersion: '2015-09-01'
+Transform: 'Aliyun::Serverless-2018-04-03'
+Resources:
+  vue-ant-website:
+    Type: 'Aliyun::Serverless::Service'
+    Properties:
+      Description: Vue Ant Design Website
+      InternetAccess: true
+    web-serve:
+      Type: 'Aliyun::Serverless::Function'
+      Properties:
+        Handler: index.handler
+        Initializer: index.initializer
+        Runtime: custom
+        CodeUri: ./dist
+        MemorySize: 512
+        Timeout: 60
+        EnvironmentVariables:
+          NODE_ENV: production
+        CustomContainerConfig:
+          Command:
+            - node
+            - server.js
+      Events:
+        http-trigger:
+          Type: HTTP
+          Properties:
+            AuthType: ANONYMOUS
+            Methods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - HEAD
+              - OPTIONS 

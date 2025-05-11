@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Block access to admin and API routes
+Disallow: /admin/
+Disallow: /api/
+
+# Allow access to main content directories
+Allow: /products/
+Allow: /scenarios/
+Allow: /about/
+Allow: /news/
+Allow: /contact/
+Allow: /images/
+Allow: /files/
+
+# Allow access to static assets
+Allow: /*.html$
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.pdf$
+
+# Sitemap location
+Sitemap: https://hydrogendrone.cn/sitemap.xml

@@ -1,0 +1,6 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#fff7e6" rx="10" ry="10" />
+  <circle cx="200" cy="90" r="40" fill="#fa8c16" opacity="0.6" />
+  <path d="M200 50 L210 80 L240 80 L215 100 L225 130 L200 110 L175 130 L185 100 L160 80 L190 80 Z" fill="#fa8c16" />
+  <text x="200" y="180" font-family="Arial" font-size="16" text-anchor="middle" fill="#fa8c16">国家高新技术企业认定</text>
+</svg> 

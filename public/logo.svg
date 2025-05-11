@@ -1,0 +1,17 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景环形 -->
+  <circle cx="25" cy="25" r="22" fill="#0A192F" />
+  <circle cx="25" cy="25" r="18" stroke="#64FFDA" stroke-width="1" fill="none" />
+  
+  <!-- 无人机样式元素 -->
+  <path d="M25 13L33 25L25 37L17 25L25 13Z" fill="#1890FF" stroke="#64FFDA" stroke-width="1" />
+  <circle cx="25" cy="25" r="4" fill="#64FFDA" />
+  
+  <!-- 氢分子符号 -->
+  <circle cx="20" cy="20" r="2" fill="white" />
+  <circle cx="30" cy="20" r="2" fill="white" />
+  
+  <!-- 文字部分 -->
+  <text x="55" y="30" font-family="Arial" font-weight="bold" font-size="16" fill="#1890FF">HydrogenDrone</text>
+  <text x="55" y="40" font-family="Arial" font-size="10" fill="#64FFDA">Advanced Technology</text>
+</svg> 

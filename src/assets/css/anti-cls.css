@@ -1,0 +1,104 @@
+/**
+ * 防止布局偏移(CLS)的CSS规则
+ */
+
+/* 图片容器设置固定宽高比，防止图片加载时布局偏移 */
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+/* 常见宽高比预设 */
+.aspect-1-1 {
+  padding-bottom: 100%; /* 1:1 */
+}
+
+.aspect-4-3 {
+  padding-bottom: 75%; /* 4:3 */
+}
+
+.aspect-16-9 {
+  padding-bottom: 56.25%; /* 16:9 */
+}
+
+.aspect-21-9 {
+  padding-bottom: 42.85%; /* 21:9 */
+}
+
+/* 图片填充容器 */
+.img-container img,
+.img-container .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 防止字体导致的布局偏移 */
+html {
+  font-display: optional;
+}
+
+/* 防止动态内容高度变化导致的布局偏移 */
+.min-height-container {
+  min-height: 200px;
+}
+
+.medium-min-height {
+  min-height: 400px;
+}
+
+.large-min-height {
+  min-height: 600px;
+}
+
+/* 预留空间给动态加载的元素 */
+.placeholder {
+  background-color: #f5f5f5;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #f5f5f5;
+  }
+  50% {
+    background-color: #eaeaea;
+  }
+  100% {
+    background-color: #f5f5f5;
+  }
+}
+
+/* 固定位置的滚动按钮，避免页面加载时跳动 */
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  transform: translateZ(0); /* 强制GPU加速 */
+}
+
+/* 确保加载状态下的容器维持大小 */
+.loading-container {
+  position: relative;
+  min-height: 100px;
+}
+
+.loading-container.tall {
+  min-height: 300px;
+}
+
+/* 确保页头和导航栏在滚动时不会跳动 */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 60px; /* 固定高度 */
+} 

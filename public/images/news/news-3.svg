@@ -1,0 +1,8 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#f6ffed" rx="10" ry="10" />
+  <rect x="125" y="70" width="50" height="60" fill="#52c41a" opacity="0.7" />
+  <rect x="225" y="70" width="50" height="60" fill="#52c41a" opacity="0.7" />
+  <path d="M150 70 L250 70" stroke="#52c41a" stroke-width="4" />
+  <path d="M150 130 L250 130" stroke="#52c41a" stroke-width="4" />
+  <text x="200" y="180" font-family="Arial" font-size="16" text-anchor="middle" fill="#52c41a">产学研合作研究中心</text>
+</svg> 
